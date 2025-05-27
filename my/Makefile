@@ -5,8 +5,10 @@
 ## Make lib
 ##
 
-SRC = my_putchar.c      \
-	  my_print_alpha.c
+SRC = 	my_print_digits.c   \
+		my_print_revalpha.c \
+		my_putchar.c      	\
+	  	my_print_alpha.c
 
 OBJ = $(SRC:.c=.o)
 
