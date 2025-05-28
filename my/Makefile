@@ -5,7 +5,9 @@
 ## Make lib
 ##
 
-SRC = 	my_print_comb2.c 	\
+SRC = 	my_power.c 			\
+		my_put_nbr.c 		\
+		my_print_comb2.c 	\
 		my_print_comb.c		\
 		my_print_digits.c   \
 		my_print_revalpha.c	\

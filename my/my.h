@@ -13,6 +13,9 @@
     int my_print_digits(void);
     int my_print_comb(void);
     int my_print_comb2(void);
+    int my_put_nbr(int nb);
+
+    int my_power(int nbr, int pow);
     void my_putchar(char c);
 
 #endif /* !my */
