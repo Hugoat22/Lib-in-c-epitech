@@ -11,6 +11,8 @@
     int my_print_alpha(void);
     int my_print_revalpha(void);
     int my_print_digits(void);
+    int my_print_comb(void);
+    int my_print_comb2(void);
     void my_putchar(char c);
 
 #endif /* !my */

@@ -5,8 +5,10 @@
 ## Make lib
 ##
 
-SRC = 	my_print_digits.c   \
-		my_print_revalpha.c \
+SRC = 	my_print_comb2.c 	\
+		my_print_comb.c		\
+		my_print_digits.c   \
+		my_print_revalpha.c	\
 		my_putchar.c      	\
 	  	my_print_alpha.c
 
