@@ -5,7 +5,12 @@
 ## Make lib
 ##
 
-SRC = 	my_print_combn.c 	\
+SRC = 	my_swap_char.c 		\
+		my_evil_str.c 		\
+		my_strlen.c 		\
+		my_putstr.c			\
+		my_swap.c 			\
+		my_print_combn.c 	\
 		my_power.c 			\
 		my_put_nbr.c 		\
 		my_print_comb2.c 	\
