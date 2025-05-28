@@ -5,7 +5,8 @@
 ## Make lib
 ##
 
-SRC = 	my_power.c 			\
+SRC = 	my_print_combn.c 	\
+		my_power.c 			\
 		my_put_nbr.c 		\
 		my_print_comb2.c 	\
 		my_print_comb.c		\

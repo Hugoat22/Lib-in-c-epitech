@@ -15,8 +15,6 @@ void my_print_3(int *chiffre)
         for (int j = 0;j < 2;j++) my_putchar(nbr[j] + 48);
         if (i == 0) my_putchar(' ');
     }
-    my_putchar(',');
-    my_putchar(' ');
 }
 int my_print_comb2(void)
 {
@@ -25,6 +23,8 @@ int my_print_comb2(void)
     {
         my_print_3(chiffre);
         if (chiffre[0] == 98 && chiffre[1] == 99) return 0;
+        my_putchar(',');
+        my_putchar(' ');
         if (chiffre[1] == 99) {
             chiffre[0]++;
             chiffre[1] = chiffre[0] + 1;
