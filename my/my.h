@@ -23,6 +23,10 @@
     void my_swap_char(char *a, char *b);
     int my_getnbr(char const *str);
     void my_sort_int_array(int *array, int size);
+    int my_compute_factorial_it(int nb);
+    int my_compute_factorial_rec(int nb);
+    int my_compute_power_it(int nb, int p);
+    int my_compute_power_rec(int nb, int p);
     void my_putchar(char c);
 
 #endif /* !my */
