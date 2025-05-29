@@ -5,7 +5,7 @@
 ** function check string is only lower case
 */
 
-int my_str_isupper(char const*str)
+int my_str_islower(char const*str)
 {
     for (int i = 0;str[i] != '\0';i++) {
         if ('A' <= str[i] && str[i] <= 'Z') return 0;
