@@ -5,7 +5,9 @@
 ## Make lib
 ##
 
-SRC = 	my_strncpy.c 				\
+SRC = 	my_strstr.c 				\
+		my_revstr.c 				\
+		my_strncpy.c 				\
 		my_strcpy.c 				\
 		my_find_prime_sup.c 		\
 		my_is_prime.c 				\
@@ -40,8 +42,8 @@ NAMEINC = my.h
 all: $(NAMELIB)
 
 $(NAMELIB) : $(OBJ)
-	gcc -c $(OBJ)
 	ar rc $(NAMELIB) $(OBJ)
+	ranlib $(NAMELIB)
 	cp $(NAMELIB) ../$(NAMELIB)
 	cp $(NAMEINC) ../../include/$(NAMEINC)
 	make clean

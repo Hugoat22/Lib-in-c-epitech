@@ -32,6 +32,8 @@
     int my_find_prime_sup(int nb);
     char *my_strcpy(char *dest, char const *src);
     char *my_strncpy(char *dest, char const *src, int n);
+    char *my_revstr(char *str);
+    char *my_strstr(char *str, char const *to_find);
     void my_putchar(char c);
 
 #endif /* !my */
