@@ -5,7 +5,11 @@
 ## Make lib
 ##
 
-SRC = 	my_strstr.c 				\
+SRC = 	my_strlowcase.c 			\
+		my_strupcase.c 				\
+		my_strncmp.c 				\
+		my_strcmp.c 				\
+		my_strstr.c 				\
 		my_revstr.c 				\
 		my_strncpy.c 				\
 		my_strcpy.c 				\
