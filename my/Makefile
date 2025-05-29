@@ -5,7 +5,8 @@
 ## Make lib
 ##
 
-SRC = 	my_swap_char.c 		\
+SRC = 	my_getnbr.c 		\
+		my_swap_char.c 		\
 		my_evil_str.c 		\
 		my_strlen.c 		\
 		my_putstr.c			\

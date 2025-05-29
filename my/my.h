@@ -21,6 +21,7 @@
     int my_strlen(char const *str);
     char *my_evil_str(char *str);
     void my_swap_char(char *a, char *b);
+    int my_getnbr(char const *str);
     void my_putchar(char c);
 
 #endif /* !my */
