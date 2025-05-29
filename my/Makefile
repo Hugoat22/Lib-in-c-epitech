@@ -5,7 +5,12 @@
 ## Make lib
 ##
 
-SRC = 	my_strlowcase.c 			\
+SRC = 	my_str_isupper.c 			\
+		my_str_islower.c 			\
+		my_str_isnum.c 				\
+		my_str_isalpha.c 			\
+		my_strcapitalize.c			\
+		my_strlowcase.c 			\
 		my_strupcase.c 				\
 		my_strncmp.c 				\
 		my_strcmp.c 				\
