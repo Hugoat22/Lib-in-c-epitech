@@ -5,7 +5,9 @@
 ## Make lib
 ##
 
-SRC = 	my_find_prime_sup.c 		\
+SRC = 	my_strncpy.c 				\
+		my_strcpy.c 				\
+		my_find_prime_sup.c 		\
 		my_is_prime.c 				\
 		my_compute_square_root.c 	\
 		my_compute_power_rec.c 		\
