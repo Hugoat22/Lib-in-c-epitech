@@ -27,6 +27,7 @@
     int my_compute_factorial_rec(int nb);
     int my_compute_power_it(int nb, int p);
     int my_compute_power_rec(int nb, int p);
+    int my_compute_square_root(int nb);
     void my_putchar(char c);
 
 #endif /* !my */
