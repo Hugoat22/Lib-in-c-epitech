@@ -22,6 +22,7 @@
     char *my_evil_str(char *str);
     void my_swap_char(char *a, char *b);
     int my_getnbr(char const *str);
+    void my_sort_int_array(int *array, int size);
     void my_putchar(char c);
 
 #endif /* !my */
