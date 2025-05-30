@@ -5,7 +5,12 @@
 ## Make lib
 ##
 
-SRC = 	my_putnbr_base.c 			\
+SRC = 	concat_params.c 			\
+		my_strdup.c 				\
+		my_strncat.c 				\
+		my_strcat.c 				\
+		my_getnbr_base.c 			\
+		my_putnbr_base.c 			\
 		my_str_isprintable.c 		\
 		my_str_isupper.c 			\
 		my_str_islower.c 			\

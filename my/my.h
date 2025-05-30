@@ -45,6 +45,11 @@
     int my_str_isupper(char const *str);
     int my_str_isprintable(char const *str);
     int my_putnbr_base(int nbr, char const *base);
+    int my_getnbr_base(int nbr, char const *base);
+    char *my_strcat(char *dest,char const *src);
+    char *my_strncat(char *dest,char const *src, int nb);
+    char *my_strdup(char const *src);
+    char *concat_params(int argc, char **argv);
     void my_putchar(char c);
 
 #endif /* !my */
