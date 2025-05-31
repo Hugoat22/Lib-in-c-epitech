@@ -50,6 +50,8 @@
     char *my_strncat(char *dest,char const *src, int nb);
     char *my_strdup(char const *src);
     char *concat_params(int argc, char **argv);
+    int my_show_word_array(char * const *tab);
+    char **my_str_to_word_array(char const *str);
     void my_putchar(char c);
 
 #endif /* !my */

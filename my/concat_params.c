@@ -15,12 +15,11 @@ char *concat_params(int argc, char **argv)
 
     for (int i = 0;i != argc;i++) size += my_strlen(argv[i]);
 
-    char *chaine = malloc(sizeof(char) * (size + 1));
+    char *chaine = malloc(sizeof(char) * (size + argc+ 1));
     chaine[0] = '\0';
     for (;j != argc;j++) {
         my_strcat(chaine, argv[j]);
         my_strcat(chaine, "\n");
     }
-    chaine[j+1] = '\0';
     return chaine;
 }

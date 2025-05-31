@@ -5,7 +5,9 @@
 ## Make lib
 ##
 
-SRC = 	concat_params.c 			\
+SRC = 	my_str_to_word_array.c 		\
+		my_show_word_array.c 		\
+		concat_params.c 			\
 		my_strdup.c 				\
 		my_strncat.c 				\
 		my_strcat.c 				\
